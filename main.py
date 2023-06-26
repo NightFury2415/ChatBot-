@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = '{YOU_API_KEY}'
 
 def get_api_response(prompt: str) ->  str | None:
     text: str | None = None
